@@ -20,7 +20,7 @@ export default class App extends Component {
   // property initializer syntax allows for not having to explicitly bind this in constructor for class methods
   // need babel-plugin-transform-class-properties package, included natively in create-react-app
   fetchData = (query = 'doge') => {
-    axios.get(`http://api.giphy.com/v1/gifs/search?q=${query}&limit=24&api_key=dc6zaTOxFJmzC`)
+    axios.get(`https://api.giphy.com/v1/gifs/search?q=${query}&limit=24&api_key=dc6zaTOxFJmzC`)
       .then(response => {
         this.setState({
           gifs: response.data.data,
