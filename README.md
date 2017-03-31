@@ -1,3 +1,7 @@
+heroku demo available [here](https://gif-machine.herokuapp.com/).
+
+if demo is down (it's a free dyno), please instead git clone repo, npm/yarn install, npm/yarn run build, then npm/yarn start.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
